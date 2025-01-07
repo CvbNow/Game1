@@ -18,8 +18,20 @@ public class GamePanel extends JPanel implements Runnable{
         this.setDoubleBuffered(true);
     }
 
-    @Override
+    int fps = 60;
+    double lastTime = System.nanotime();
+    double currentTime;
+    @Override //Delta Time
     public void run() {
-         
+        currentTime = System.nanotime();
+        if ((currentTime - lastTime)/1e9/fps >= 1){
+            lastTime = currentTime;
+
+            this.update();
+
+            this.repaint();
+            //TODO
+            //Add in the update and repaint functions
+         }
     }
 }
