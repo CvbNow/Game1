@@ -11,6 +11,7 @@ public class Main {
         
         window.setLocationRelativeTo(null);
         window.setVisible(true);
+        //MORE IDK!!!
     }
     
 }
