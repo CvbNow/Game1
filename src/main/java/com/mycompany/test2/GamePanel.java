@@ -20,9 +20,6 @@ public class GamePanel extends JPanel implements Runnable{
 
     @Override
     public void run() {
-         //Stuff
-         //IDK!!!
-         //More Stuff
-         System.out.println("Stuff");
+         
     }
 }
