@@ -23,5 +23,6 @@ public class GamePanel extends JPanel implements Runnable{
          //Stuff
          //IDK!!!
          //More Stuff
+         System.out.println("Stuff");
     }
 }
