@@ -9,9 +9,16 @@ public class Main {
         window.setResizable(false);
         window.setTitle("Tile Map Editor");
         
+        
+        GamePanel gp = new GamePanel();
+        window.add(gp);
+        
+        window.pack();
+        
         window.setLocationRelativeTo(null);
         window.setVisible(true);
         //MORE IDK!!!
+        
     }
     
 }
